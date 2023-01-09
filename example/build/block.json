@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/example",
+  "version": "1.0.0",
+  "title": "Example",
+  "description": "Displays a significative case that helps the learner comprehend a concept or idea explained in the content.",
+  "keywords": [
+    "example",
+    "case"
+  ],
+  "supports": {
+    "html": false
+  },
+  "styles": [
+    {
+      "name": "compact-width",
+      "label": "Compact width",
+      "isDefault": true
+    },
+    {
+      "name": "full-width",
+      "label": "Full width"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "title": "Example Title",
+      "text": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "textdomain": "example",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

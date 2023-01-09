@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/expected-feedback",
+  "version": "1.0.0",
+  "title": "Expected Feedback",
+  "description": "Gives the learner feedback or related information on a particular task.",
+  "keywords": [
+    "expected",
+    "feedback"
+  ],
+  "supports": {
+    "html": false
+  },
+  "styles": [
+    {
+      "name": "compact-width",
+      "label": "Compact width",
+      "isDefault": true
+    },
+    {
+      "name": "full-width",
+      "label": "Full width"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "textdomain": "expected-feedback",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

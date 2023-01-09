@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/procedural-context",
+  "version": "1.0.0",
+  "title": "Procedural Context",
+  "description": "Provides the learner with a detailed description of a procedure due to following in a particular context.",
+  "keywords": [
+    "procedural",
+    "context"
+  ],
+  "supports": {
+    "html": false
+  },
+  "styles": [
+    {
+      "name": "compact-width",
+      "label": "Compact width"
+    },
+    {
+      "name": "full-width",
+      "label": "Full width",
+      "isDefault": true
+    }
+  ],
+  "example": {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "textdomain": "procedural-context",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

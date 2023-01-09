@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/due-date",
+  "version": "1.0.0",
+  "title": "Due Date",
+  "description": "Displays the date by which some task is expected to be done by the learner.",
+  "keywords": [
+    "due date",
+    "due",
+    "date"
+  ],
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "content": "January 1st"
+    }
+  },
+  "textdomain": "due-date",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

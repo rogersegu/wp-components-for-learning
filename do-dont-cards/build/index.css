@@ -1,0 +1,57 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.c4l-do-dont-cards.is-style-compact-width .c4l-do-dont-cards-do, .c4l-do-dont-cards.is-style-compact-width .c4l-do-dont-cards-dont {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c4l-do-dont-cards.is-style-full-width .c4l-do-dont-cards-do, .c4l-do-dont-cards.is-style-full-width .c4l-do-dont-cards-dont {
+  width: 100%;
+}
+
+.c4l-do-dont-cards-do {
+  box-sizing: border-box;
+  width: 75%;
+  background: #f1fbf5;
+  border-radius: 10px;
+  padding: 24px 48px 30px 36px;
+  margin: 12px auto;
+  position: relative;
+}
+.c4l-do-dont-cards-do::before {
+  content: url("data:image/svg+xml;charset=UTF-8, <svg width=%2725%27 height=%2724%27 viewBox=%270 0 25 24%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27><circle cx=%2712.75%27 cy=%2712%27 r=%2712%27 fill=%27%231CC460%27/><path d=%27M17.1514 7L16.2896 7.85227L10.39 13.7519L7.26514 11.2519L5.75 13.1459L9.72724 16.3276L10.57 17L11.3465 16.233L18.8652 8.71426L17.1514 7Z%27 fill=%27white%27/></svg>");
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.c4l-do-dont-cards-do p {
+  margin-bottom: 6px;
+}
+.c4l-do-dont-cards-do p:last-of-type {
+  margin-bottom: 0;
+}
+
+.c4l-do-dont-cards-dont {
+  box-sizing: border-box;
+  width: 75%;
+  background: #ffefef;
+  border-radius: 10px;
+  padding: 24px 48px 30px 36px;
+  margin: 12px auto;
+  position: relative;
+}
+.c4l-do-dont-cards-dont::before {
+  content: url("data:image/svg+xml;charset=UTF-8, <svg width=%2724%27 height=%2724%27 viewBox=%270 0 24 24%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27><circle cx=%2712%27 cy=%2712%27 r=%2712%27 fill=%27%23F85449%27/><path d=%27M15.3137 17.0814L7.18201 8.94971L8.94977 7.18194L17.0815 15.3137L15.3137 17.0814Z%27 fill=%27white%27/><path d=%27M17.0814 8.94982L8.94971 17.0815L7.18194 15.3138L15.3137 7.18205L17.0814 8.94982Z%27 fill=%27white%27/></svg>");
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.c4l-do-dont-cards-dont p {
+  margin-bottom: 6px;
+}
+.c4l-do-dont-cards-dont p:last-of-type {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

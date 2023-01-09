@@ -1,0 +1,37 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.c4l-example.is-style-compact-width .c4l-example-content {
+  width: 75%;
+}
+.c4l-example.is-style-full-width .c4l-example-content {
+  width: 100%;
+}
+.c4l-example .c4l-example-content {
+  box-sizing: border-box;
+  width: 75%;
+  background: #fff;
+  padding: 36px 48px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.13);
+  margin-left: auto;
+  margin-right: auto;
+}
+.c4l-example .c4l-example-title {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #3171e3;
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+  font-family: inherit;
+  display: inline-block;
+  border-bottom: 2px solid #3171e3;
+}
+.c4l-example .c4l-example-text {
+  font-size: 15px;
+  line-height: 22px;
+  color: inherit;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

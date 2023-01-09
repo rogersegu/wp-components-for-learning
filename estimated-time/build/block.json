@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/estimated-time",
+  "version": "1.0.0",
+  "title": "Estimated Time",
+  "description": "Displays the estimated time for the learner to perform something.",
+  "keywords": [
+    "estimated",
+    "time",
+    "expected"
+  ],
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "time": "12",
+      "timeUnit": "min"
+    }
+  },
+  "textdomain": "estimated-time",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

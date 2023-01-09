@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/grading-value",
+  "version": "1.0.0",
+  "title": "Grading Value",
+  "description": "Displays the relative value of the grade for a particular task.",
+  "keywords": [
+    "grading",
+    "value",
+    "grade",
+    "mark",
+    "percentage"
+  ],
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "content": "Grading Value:",
+      "grade": "25%"
+    }
+  },
+  "textdomain": "grading-value",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

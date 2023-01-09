@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/attention",
+  "version": "1.0.0",
+  "title": "Attention",
+  "description": "Attracts the learner's attention to some relevant issue or information.",
+  "keywords": [
+    "attention",
+    "warning",
+    "relevant"
+  ],
+  "supports": {
+    "html": false
+  },
+  "styles": [
+    {
+      "name": "compact-width",
+      "label": "Compact width",
+      "isDefault": true
+    },
+    {
+      "name": "full-width",
+      "label": "Full width"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "textdomain": "attention",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

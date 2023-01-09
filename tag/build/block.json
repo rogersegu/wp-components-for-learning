@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/tag",
+  "version": "1.0.0",
+  "title": "Tag",
+  "description": "Sets a contextual environment regarding the kind of subject, category or similar taxonomies.",
+  "keywords": [
+    "tag",
+    "category",
+    "taxonomy",
+    "chip"
+  ],
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "content": "Lorem ipsum"
+    }
+  },
+  "textdomain": "tag",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

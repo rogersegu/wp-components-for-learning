@@ -1,0 +1,33 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.c4l-reading-context.is-style-compact-width .c4l-reading-context-content {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c4l-reading-context.is-style-full-width .c4l-reading-context-content {
+  width: 100%;
+}
+.c4l-reading-context .c4l-reading-context-content {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px 19px 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  font-family: Lora, "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.c4l-reading-context .c4l-reading-context-text {
+  font-size: 16px;
+  line-height: 23px;
+}
+.c4l-reading-context .c4l-reading-context-caption {
+  font-size: 16px;
+  margin-top: 24px;
+  text-align: right;
+  padding-bottom: 14px;
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "c4l/reminder",
+  "version": "1.0.0",
+  "title": "Reminder",
+  "description": "Retrieves a particular concept that may help the learner better understand the current learning subject.",
+  "keywords": [
+    "reminder",
+    "remind",
+    "remember",
+    "recall"
+  ],
+  "supports": {
+    "html": false
+  },
+  "styles": [
+    {
+      "name": "compact-width",
+      "label": "Compact width",
+      "isDefault": true
+    },
+    {
+      "name": "full-width",
+      "label": "Full width"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "textdomain": "reminder",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

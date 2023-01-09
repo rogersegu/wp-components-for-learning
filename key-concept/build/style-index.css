@@ -1,0 +1,28 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.c4l-key-concept.is-style-compact-width .c4l-key-concept-content {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c4l-key-concept.is-style-full-width .c4l-key-concept-content {
+  width: 100%;
+}
+
+.c4l-key-concept-content {
+  box-sizing: border-box;
+  width: 75%;
+  background-color: #f1f5fe;
+  padding: 24px 36px;
+  border: none;
+  border-left: 6px solid #387af1;
+  margin: 36px auto;
+  position: relative;
+  border-radius: 0;
+}
+.c4l-key-concept-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
