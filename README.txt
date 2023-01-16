@@ -2,7 +2,7 @@
 Contributors: rogersegu
 Tags: learning, blocks, gutenberg, LMS
 Requires at least: 6.1
-Tested up to: 6.0
+Tested up to: 6.1
 Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later
